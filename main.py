@@ -1,6 +1,6 @@
 import time
 from threading import Thread
-
+from assets import hello
 
 def upload_file(name):
     for i in range(1, 11):
@@ -9,6 +9,6 @@ def upload_file(name):
 
 
 
-
+hello()
 print("End of main")
 # end comment
